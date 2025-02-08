@@ -1,30 +1,21 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import './Letter.css';
-import Please from '../images/Please-Teddy.gif';
 import ValentineResponse from './ValentineResponse'; // Import the new component
 import LoadingGif from '../images/loading.gif'; // Add your loading GIF here
 
 const Letter = () => {
   const [hovered, setHovered] = useState(false);
   const [password, setPassword] = useState(""); 
-  const [isPasswordCorrect, setIsPasswordCorrect] = useState(false);
   const [buttonPosition, setButtonPosition] = useState({ x: 0, y: 0 });
   const [showResponse, setShowResponse] = useState(false); // State for showing the response
   const [loading, setLoading] = useState(false); // State for loading GIF
-  const correctPassword = "01-12-24";
 
   const handlePasswordChange = (e) => {
     setPassword(e.target.value);
   };
 
   const handlePasswordSubmit = (e) => {
-    e.preventDefault();
-    if (password === correctPassword) {
-      setIsPasswordCorrect(true);
-    } else {
-      alert("Incorrect password! Please try again.");
-    }
   };
 
   const generateRandomPosition = () => {

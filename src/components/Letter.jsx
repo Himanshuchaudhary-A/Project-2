@@ -80,7 +80,7 @@ const Letter = () => {
                     <p>Shivani,</p>
                     <p>Today’s the day I get to ask... will you be my Valentine? 💖</p>
                     <p>I know things aren't very great between us but trust me I try my best to make you comfortable around me everyday.</p>
-                    <p>I know I over-react sometimes but trust me , I love you💓 </p>
+                    <p>I know I over-react sometimes but trust me, I love you💓 </p>
                     <p>I want to spend my every valentine with you.</p>
                     <p>I want to be there for you forever ♾️</p>
                     <p>Only Yours, Kavish 💞</p>
